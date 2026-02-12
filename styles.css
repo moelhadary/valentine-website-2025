@@ -90,19 +90,20 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    margin-top: 0;
-    opacity: 0.2;
-    transition: opacity 0.3s;
-    transform: scale(0.7);
+    opacity: 0.6;                 /* more visible */
+    transition: all 0.3s ease;
+    transform: scale(1.2);        /* BIGGER */
     z-index: 2;
     animation: subtle-hint 2s infinite alternate;
     animation-delay: 5s;
 }
 
 .secret-answer .cute-btn {
-    font-size: 0.8rem;
-    padding: 5px 10px;
+    font-size: 1.3rem;            /* larger text */
+    padding: 15px 30px;           /* bigger button */
+    border-radius: 30px;
 }
+
 
 .secret-answer:hover {
     opacity: 1;
