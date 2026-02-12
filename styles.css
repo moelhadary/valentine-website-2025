@@ -199,7 +199,7 @@ body {
 #extraLove {
     color: #ff6b6b;
     font-weight: bold;
-    animation: bounce 0.5s 1 alternate;
+    animation: bounce 0.5s infinite alternate;
     display: block;
     padding: 5px 10px;
     border-radius: 10px;
@@ -285,7 +285,7 @@ h2 {
     color: #ff4757;
     font-weight: bold;
     margin: 30px 0;
-    animation: bounce var(--bounce-speed) infinite alternate;
+    animation: bounce 0.5s 1 alternate;
     text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.3);
 }
 
