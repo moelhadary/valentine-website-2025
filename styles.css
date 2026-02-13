@@ -90,13 +90,15 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0.5;                 /* more visible */
+    opacity: 0.2;                 /* start faint */
     transition: all 0.3s ease;
-    transform: scale(1.0);        /* BIGGER */
+    transform: scale(1.0);
     z-index: 2;
-    animation: subtle-hint 2s infinite alternate;
-    animation-delay: 5s;
+
+    animation: reveal-secret 1s forwards;   /* play once */
+    animation-delay: 5s;                    /* wait 5s then show */
 }
+
 
 .secret-answer .cute-btn {
     font-size: 1.3rem;            /* larger text */
@@ -242,6 +244,17 @@ body {
     font-size: 2rem;
     animation: explode 1s ease-out forwards;
     margin-top: 30px;
+}
+
+@keyframes reveal-secret {
+    from {
+        opacity: 0.2;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1.1);
+    }
 }
 
 @keyframes explode {
