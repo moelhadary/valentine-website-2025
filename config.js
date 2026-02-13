@@ -22,8 +22,8 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            yesBtn: "Maybe 🤔",                                             // Text for "Yes" button
+            noBtn: "Nooo 🙈",                                               // Text for "No" button
             secretAnswer: "Okay fine… yes, I like you more than just a little ❤️"           // Secret hover message
         },
         second: {
