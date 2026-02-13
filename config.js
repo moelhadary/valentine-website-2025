@@ -49,7 +49,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Guess it’s officially our Valentine’s ❤️",
-        message: "I really wish I could be next to you today… but soon ❤️ Distance just means I have to find new ways to remind you how special you are to me. Even from far away, you’ve become such a beautiful part of my days. I really, really like you, and I’m so happy we get to call this our Valentine’s.",
+        message: "I really wish I could be with you on this day… but soon ❤️ Distance just means I have to find new ways to remind you how special you are to me. Even from far away, you’ve become such a beautiful part of my days. I really, really like you, and I’m so happy we get to call this our Valentine’s.",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
